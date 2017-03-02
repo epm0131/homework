@@ -1,0 +1,32 @@
+I begin with separation of concerns making my code modular and separate UI from
+Data.
+
+Starting with my Data file I create an empty array so that I can eventually push
+my household members in. I create a function that holds onto the input values of
+the user, but before we use those values it goes through a validation ensuring
+that age is not blank and it is not equal to zero or a negative number and also
+relationship is picked.  Once that happens I create and hold on to my object
+(person) and the properties are assigned the input values but the user.  Inside
+this function I call my UI function which creates the elements and appends the
+values to the page.  I also have the object pushed to the array. I then reset
+the form and have an if statement in regards to the validation messages that are
+created ensuring they are removed once you fill in the form correctly. On the
+data I also created a simple function to return the array so that I can pass it
+to my UI page.
+
+On the UI page we have my event handlers.  The first you run into is the submit
+button which begins with a preventDefault and then I have the array
+JSON.stringify and I have the value show in the element that has a class of debug.
+I also removed the display none style that was on it. Next I have a function that
+creates elements and also shows the values of the data.  I also created a button
+for when house hold members need to be removed.  I add an id property for the
+members so that it would be easier for me to be able to remove them from the
+array. Next event handler we have the add feature again start with the
+preventDefault. Here i am holding on to the selected values from the user and
+call my function from the data side. Next I have an event handler on my remove button
+ensuring that the house hold member is being removed from the DOM and also from the
+array by their ID.
+
+That was the run down of my thought process.
+
+Cheers!!!
