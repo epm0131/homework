@@ -6,7 +6,7 @@ my household members in. I create a function that holds onto the input values of
 the user, but before we use those values it goes through a validation ensuring
 that age is not blank and it is not equal to zero or a negative number and also
 relationship is picked.  Once that happens I create and hold on to my object
-(person) and the properties are assigned the input values but the user.  Inside
+(person) and the properties are assigned the input values buy the user.  Inside
 this function I call my UI function which creates the elements and appends the
 values to the page.  I also have the object pushed to the array. I then reset
 the form and have an if statement in regards to the validation messages that are
